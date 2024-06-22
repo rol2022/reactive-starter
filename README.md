@@ -11,7 +11,7 @@ Table of Contents:
 ### Setup Template
 
 ```
-git clone https://github.com/rameem2003/react-tailwind-get-stated.git
+git clone https://github.com/rol2022/reactive-starter.git
 ```
 
 ### After Setup

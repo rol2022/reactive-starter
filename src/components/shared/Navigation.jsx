@@ -45,7 +45,10 @@ const Navigation = () => {
               <Link to="/about">About</Link>
             </ListItem>
             <ListItem className=" font-sans font-medium text-xl text-white">
-              <a href="">
+              <a
+                href="https://github.com/rol2022/reactive-starter"
+                target="_blank"
+              >
                 <FaGithub />
               </a>
             </ListItem>

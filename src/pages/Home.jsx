@@ -15,7 +15,7 @@ const Home = () => {
       </h1>
 
       <a
-        href=""
+        href="https://github.com/rol2022/reactive-starter"
         target="_blank"
         className=" mt-5 block py-3 px-5 font-sans font-bold text-xl text-white border-[2px] border-white/40 rounded-lg"
       >
