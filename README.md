@@ -1,5 +1,7 @@
 # React + Tailwind CSS Starter Template
 
+## Optimized for Vercel deployment
+
 Table of Contents:
 
 - Vite
