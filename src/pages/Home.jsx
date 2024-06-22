@@ -19,7 +19,7 @@ const Home = () => {
         target="_blank"
         className=" mt-5 block py-3 px-5 font-sans font-bold text-xl text-white border-[2px] border-white/40 rounded-lg"
       >
-        Get The Temlplate
+        Get The Template
       </a>
 
       <p className=" font-sans font-medium text-xl text-white mt-10">
