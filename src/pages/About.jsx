@@ -5,9 +5,9 @@ import Image from "../components/common/Image";
 
 const About = () => {
   return (
-    <main className="min-h-[90vh] w-full bg-bgScreen">
+    <main className="h-screen w-full bg-bgScreen pt-[100px]">
       <Container>
-        <h2 className=" pt-5 font-sans font-semibold text-base sm:text-xl xl:text-3xl text-white capitalize">
+        <h2 className=" font-sans font-semibold text-base sm:text-xl xl:text-3xl text-white capitalize">
           This starter template contains
         </h2>
 

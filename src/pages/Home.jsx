@@ -20,9 +20,9 @@ const Home = () => {
     }, 5000);
   };
   return (
-    <main className="h-[90vh] w-full bg-bgScreen flex items-center justify-center flex-col">
+    <main className="h-screen w-full bg-bgScreen flex items-center justify-center flex-col">
       <Image
-        className=" w-auto sm:w-[50%] md:w-[30%] 2xl:w-auto mx-auto"
+        className=" w-auto sm:w-[50%] md:w-[30%] 2xl:w-[30%] mx-auto"
         src="/logo.png"
         alt="logo"
       />
@@ -36,6 +36,20 @@ const Home = () => {
       >
         Starter Template of React + Tailwind & Other NPM Packages To Build Your
         Application
+      </p>
+
+      <p className=" hidden">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+        voluptates quae officia quas explicabo asperiores, maiores doloribus
+        maxime, omnis facere, assumenda blanditiis rem quam et quibusdam
+        officiis voluptatibus nemo? Officiis expedita, aperiam nisi ullam
+        incidunt natus adipisci! Ipsam inventore quaerat ut esse possimus,
+        cupiditate delectus, nulla nesciunt dolorem illo enim, fugiat rem sed
+        assumenda! A, nesciunt, tenetur corporis voluptatem laboriosam minus
+        nihil quibusdam qui at optio nemo. Vel sunt laborum, sed iusto hic
+        laboriosam qui quod tempora tenetur recusandae vitae corrupti dolores
+        maiores et veritatis. Expedita, odio incidunt. Repudiandae quibusdam
+        assumenda enim maxime ea quaerat. Dolore cum aut officia odio.
       </p>
 
       <Flex className="my-4 p-3 items-center gap-2 bg-white/20 rounded-md">

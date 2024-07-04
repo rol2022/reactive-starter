@@ -8,7 +8,7 @@ export default {
       },
 
       backgroundImage: {
-        bgScreen: "url(/bg.jpg)",
+        bgScreen: "url(/bg1.jpg)",
       },
     },
   },

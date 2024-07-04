@@ -12,7 +12,7 @@ const Navigation = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="py-1 border-b-[1px] border-white/20 bg-black">
+    <nav className="py-1 border-b-[1px] border-white/20 bg-black absolute w-full top-0 left-0">
       <Container>
         <Flex className=" items-center  justify-between">
           <Link to="/">
