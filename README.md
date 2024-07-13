@@ -1,4 +1,4 @@
-# React + Tailwind CSS Starter Template.
+# React + Tailwind CSS Starter Template
 
 ## Optimized for Vercel deployment
 
