@@ -20,9 +20,9 @@ const Home = () => {
     }, 5000);
   };
   return (
-    <main className="h-screen w-full bg-bgScreen flex items-center justify-center flex-col">
+    <main className="h-screen w-full bg-bgScreen flex items-center justify-center flex-col px-3">
       <Image
-        className=" w-auto sm:w-[50%] md:w-[30%] 2xl:w-[30%] mx-auto"
+        className=" w-auto sm:w-[50%] md:w-[50%] xl:w-[40%] 2xl:w-[30%] mx-auto"
         src="/logo.png"
         alt="logo"
       />
@@ -31,7 +31,7 @@ const Home = () => {
         REACT + TAILWIND
       </h1>
       <p
-        className=" font-sans font-medium text-sm 2xl:text-xl
+        className=" font-sans font-medium text-center text-sm 2xl:text-xl
        text-white mt-2"
       >
         Starter Template of React + Tailwind & Other NPM Packages To Build Your
@@ -52,12 +52,12 @@ const Home = () => {
         assumenda enim maxime ea quaerat. Dolore cum aut officia odio.
       </p>
 
-      <Flex className="my-4 p-3 items-center gap-2 bg-white/20 rounded-md">
-        <p className=" font-sans text-sm text-white">{code}</p>
+      <Flex className="my-4 p-3 items-center gap-2 bg-white/20 rounded-md relative">
+        <p className=" font-sans text-xs sm:text-sm text-white">{code}</p>
 
         <button
           onClick={getCode}
-          className="p-2 rounded-lg text-white bg-white/40"
+          className="p-2 rounded-lg text-white bg-white/40 absolute top-0 right-0 sm:static"
         >
           {copy ? <FaCheck /> : <MdOutlineContentCopy />}
         </button>
